@@ -1,0 +1,61 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background: #CCDFCB;
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 62.5%;
+  color: #414141;
+}
+
+.container-div {
+  min-width: 30rem;
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.header {
+  margin-top: 4rem;
+  font-size: 2.5rem;
+}
+
+.unit {
+  cursor: pointer;
+  text-decoration: none;
+  color: #FF6A5C;
+}
+
+.city,
+.state,
+.country {
+  font-size: 4rem;
+  font-weight: 400; 
+  display: inline;
+}
+
+.city {
+  text-align: right;
+}
+
+.country {
+  text-align: left;
+}
+
+.temp,
+.temp-unit {
+  font-size: 8rem;
+  display: inline;
+}
+
+.conditions {
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+.weather-icon {
+  font-size: 15rem;
+  padding-bottom: 2rem;
+}
